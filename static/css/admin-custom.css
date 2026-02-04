@@ -1,0 +1,22 @@
+/* Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body,
+.content-wrapper,
+.main-header,
+.main-sidebar,
+.nav-link,
+.brand-text,
+.table,
+.form-control,
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-selection--multiple {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* Select dropdown text black */
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-selection--multiple,
+.select2-container--default .select2-results__option {
+    color: #000 !important;
+}
