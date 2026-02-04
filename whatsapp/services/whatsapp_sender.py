@@ -61,7 +61,7 @@ class WhatsAppSender:
 
         for i, contact in enumerate(contacts, 1):
             try:
-                text = self.campaign.message.text.replace("{name}", contact.name or "")
+                text = self.campaign.message.text.replace("{name}")
                 encoded = urllib.parse.quote(text)
                 url = f"https://web.whatsapp.com/send?phone={contact.phone}&text={encoded}"
                 driver.get(url)

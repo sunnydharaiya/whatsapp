@@ -8,9 +8,6 @@ class Contact(models.Model):
     def __str__(self):
         return self.phone
 
-    def get_absolute_url(self):
-        return reverse("contact-detail", kwargs={"pk": self.pk})
-
 
 class ContactGroup(models.Model):
     name = models.CharField(max_length=100)

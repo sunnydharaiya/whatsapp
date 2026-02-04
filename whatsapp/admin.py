@@ -16,10 +16,7 @@ class CampaignAdmin(admin.ModelAdmin):
 
 @admin.register(Contact)
 class ContactAdmin(admin.ModelAdmin):
-    list_display = ("id", "phone")
-
-    def view_on_site(self, obj):
-        return False
+    list_display = ("phone",)
 
 
 @admin.register(ContactGroup)

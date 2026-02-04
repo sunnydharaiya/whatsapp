@@ -50,6 +50,10 @@ JAZZMIN_SETTINGS = {
     "login_logo": None,
     "welcome_sign": "Welcome to Admin",
     "copyright": "MyApp",
+    "show_ui_builder": False,
+    "show_sidebar": False,
+    "show_top_menu": False,
+    "show_view_on_site": False,
 
     "search_model": ["auth.User"],
 
